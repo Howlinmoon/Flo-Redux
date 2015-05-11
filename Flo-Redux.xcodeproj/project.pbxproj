@@ -14,6 +14,7 @@
 		969631351AFF8A9B0080C827 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 969631331AFF8A9B0080C827 /* LaunchScreen.xib */; };
 		969631411AFF8A9B0080C827 /* Flo_ReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969631401AFF8A9B0080C827 /* Flo_ReduxTests.swift */; };
 		96D4CCDD1B01106500334155 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D4CCDC1B01106500334155 /* PushButtonView.swift */; };
+		96D4CCDF1B01174A00334155 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D4CCDE1B01174A00334155 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9696313F1AFF8A9B0080C827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		969631401AFF8A9B0080C827 /* Flo_ReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flo_ReduxTests.swift; sourceTree = "<group>"; };
 		96D4CCDC1B01106500334155 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		96D4CCDE1B01174A00334155 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				9696312C1AFF8A9B0080C827 /* ViewController.swift */,
 				96D4CCDC1B01106500334155 /* PushButtonView.swift */,
 				9696312E1AFF8A9B0080C827 /* Main.storyboard */,
+				96D4CCDE1B01174A00334155 /* CounterView.swift */,
 				969631311AFF8A9B0080C827 /* Images.xcassets */,
 				969631331AFF8A9B0080C827 /* LaunchScreen.xib */,
 				969631281AFF8A9B0080C827 /* Supporting Files */,
@@ -218,6 +221,7 @@
 				9696312D1AFF8A9B0080C827 /* ViewController.swift in Sources */,
 				96D4CCDD1B01106500334155 /* PushButtonView.swift in Sources */,
 				9696312B1AFF8A9B0080C827 /* AppDelegate.swift in Sources */,
+				96D4CCDF1B01174A00334155 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

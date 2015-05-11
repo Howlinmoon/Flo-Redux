@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BFFC7E50-3D3A-4195-9EEA-8C494B150C07</string>
+	<string>07A01ACE-2D84-49EF-BF95-6295AA0E27E3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Flo-Redux</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A961D8A409CA01779E35D69BA33E5F8FCFE7A389</key>
 		<string>https://github.com/Howlinmoon/Flo-Redux.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Flo-Redux.xcodeproj/project.xcworkspace</string>
+	<string>Flo-Redux.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A961D8A409CA01779E35D69BA33E5F8FCFE7A389</key>

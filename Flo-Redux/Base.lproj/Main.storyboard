@@ -27,11 +27,32 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isAddButton" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.3411764705882353" green="0.85490196078431369" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-n8-7Bn" customClass="PushButtonView" customModule="Flo_Redux" customModuleProvider="target">
+                                <rect key="frame" x="275" y="480" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0cj-6x-m2d"/>
+                                    <constraint firstAttribute="width" constant="50" id="d52-tN-hth"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isAddButton" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.93333333333333335" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="pfk-n8-7Bn" secondAttribute="centerX" id="Sbo-lk-Ybn"/>
+                            <constraint firstItem="pfk-n8-7Bn" firstAttribute="top" secondItem="bQ2-fl-qzD" secondAttribute="bottom" constant="30" id="iOJ-dq-ggO"/>
                             <constraint firstAttribute="centerX" secondItem="bQ2-fl-qzD" secondAttribute="centerX" id="l4B-la-U0j"/>
                             <constraint firstAttribute="centerY" secondItem="bQ2-fl-qzD" secondAttribute="centerY" constant="-100" id="n9P-c0-bBw"/>
                         </constraints>

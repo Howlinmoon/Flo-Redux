@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 
 class PushButtonView: UIButton {
-    @IBInspectable var fillColor: UIColor = UIColor.blueColor()
+    @IBInspectable var fillColor: UIColor = UIColor.greenColor()
     @IBInspectable var isAddButton: Bool = true
     
     override func drawRect(rect: CGRect) {
