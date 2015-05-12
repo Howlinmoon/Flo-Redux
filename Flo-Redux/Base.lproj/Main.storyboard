@@ -31,6 +31,9 @@
                                         <color key="value" red="0.3411764705882353" green="0.85490196078431369" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnPushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Hp-1H-MVe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-n8-7Bn" customClass="PushButtonView" customModule="Flo_Redux" customModuleProvider="target">
                                 <rect key="frame" x="275" y="480" width="50" height="50"/>
@@ -47,6 +50,9 @@
                                         <color key="value" red="0.93333333333333335" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnPushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h3h-U4-tQ6"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uE8-uv-hco" customClass="CounterView" customModule="Flo_Redux" customModuleProvider="target">
                                 <rect key="frame" x="185" y="70" width="230" height="230"/>
@@ -83,6 +89,10 @@
                             <constraint firstItem="bQ2-fl-qzD" firstAttribute="top" secondItem="uE8-uv-hco" secondAttribute="bottom" constant="50" id="pex-h0-KgH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="counterLabel" destination="NRm-lH-JoP" id="zqq-cH-Ulm"/>
+                        <outlet property="counterView" destination="uE8-uv-hco" id="m9R-FV-Qyh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
