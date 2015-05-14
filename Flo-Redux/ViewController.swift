@@ -41,14 +41,32 @@ class ViewController: UIViewController {
             }
         }
         counterLabel.text = String(counterView.counter)
+        if isGraphViewShowing {
+            counterViewTap(nil)
+        }
     }
     
-    @IBAction func counterViewTap(guesture: UITapGestureRecognizer?) {
+    @IBAction func counterViewTap(gesture:UITapGestureRecognizer?) {
         if (isGraphViewShowing) {
             
-            // Graph is showing - so hide it
-            UIView.transitionFromView(GraphView, toView: counterView, duration: 1.0, options: UIViewAnimationOptions.TransitionFlipFromLeft | UIViewAnimationOptions.ShowHideTransitionViews, completion: nil)
+            //hide Graph
+            UIView.transitionFromView(graphView,
+                toView: counterView,
+                duration: 1.0,
+                options: UIViewAnimationOptions.TransitionFlipFromLeft
+                    | UIViewAnimationOptions.ShowHideTransitionViews,
+                completion:nil)
+        } else {
+            
+            //show Graph
+            UIView.transitionFromView(counterView,
+                toView: graphView,
+                duration: 1.0,
+                options: UIViewAnimationOptions.TransitionFlipFromRight
+                    | UIViewAnimationOptions.ShowHideTransitionViews,
+                completion: nil)
         }
+        isGraphViewShowing = !isGraphViewShowing
     }
 
 }
